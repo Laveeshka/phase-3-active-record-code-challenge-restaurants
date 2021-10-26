@@ -6,8 +6,8 @@ Customer.destroy_all
 
 puts "Creating restaurants..."
 shack = Restaurant.create(name: "Karen's Lobster Shack", price: 1)
-shack = Restaurant.create(name: "Sanjay's Lobster Bistro", price: 2)
-shack = Restaurant.create(name: "Kiki's Lobster Palace", price: 3)
+bistro = Restaurant.create(name: "Sanjay's Lobster Bistro", price: 2)
+palace = Restaurant.create(name: "Kiki's Lobster Palace", price: 3)
 
 puts "Creating customers..."
 baby_spice = Customer.create(first_name: "Emma", last_name: "Bunton")

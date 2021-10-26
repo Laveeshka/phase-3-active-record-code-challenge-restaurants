@@ -147,10 +147,10 @@ review in the database.
 - `Customer#add_review(restaurant, rating)`
   - takes a `restaurant` (an instance of the `Restaurant` class) and a rating
   - creates a new review for the restaurant with the given `restaurant_id`
-- `Customer#delete_review(restaurant)`
+- `Customer#delete_reviews(restaurant)`
   - takes a `restaurant` (an instance of the `Restaurant` class) and
-  - removes their review for this restaurant
-  - you will have to delete a row from the `reviews` table to get this to work!
+  - removes **all** their reviews for this restaurant
+  - you will have to delete rows from the `reviews` table to get this to work!
 
 #### Review
 
@@ -163,9 +163,6 @@ Review for {insert restaurant name} by {insert customer's full name}: {insert re
 
 #### Restaurant
 
-- `Restaurant.highest_rated`
-  - returns _one_ restaurant instance for the restaurant that has the highest
-    average review
 - `Restaurant.fanciest`
   - returns _one_ restaurant instance for the restaurant that has the highest
     price
