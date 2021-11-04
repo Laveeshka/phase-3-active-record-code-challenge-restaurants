@@ -5,7 +5,7 @@ For this assignment, we'll be working with a restaurant review domain.
 We have three models: `Restaurant`, `Review`, and `Customer`.
 
 For our purposes, a `Restaurant` has many `Review`s, a `Customer` has many
-`Review`s, and a `Review` belongs to a `Restaurant` and to an `Customer`.
+`Review`s, and a `Review` belongs to a `Restaurant` and to a `Customer`.
 
 `Restaurant` - `Customer` is a many to many relationship.
 
@@ -81,7 +81,7 @@ build out any helper methods if needed.
 Deliverables use the notation `#` for instance methods, and `.` for class
 methods.
 
-Remember: Active Record give your classes access to a lot of methods already!
+Remember: Active Record gives your classes access to a lot of methods already!
 Keep in mind what methods Active Record gives you access to on each of your
 classes when you're approaching the deliverables below.
 
@@ -96,10 +96,10 @@ migration for the `reviews` table.
 - The `reviews` table should also have:
   - A `star_rating` column that stores an integer.
 
-After creating the `roles` table using a migration, use the `seeds.rb` file to
-create instances of your `Role` class so you can test your code.
+After creating the `reviews` table using a migration, use the `seeds.rb` file to
+create instances of your `Review` class so you can test your code.
 
-**Once you've set up your `roles` table**, work on building out the following
+**Once you've set up your `reviews` table**, work on building out the following
 deliverables.
 
 ### Object Relationship Methods
